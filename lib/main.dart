@@ -1,4 +1,7 @@
+import 'package:acourse/pages/login_page.dart';
 import 'package:acourse/pages/main_page.dart';
+import 'package:acourse/pages/signup_page.dart';
+import 'package:acourse/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/': (context) => MainPage(),
+        '/': (context) => SplashPage(),
+        '/login': (context) => LoginPage(),
+        '/signup': (context) => SignupPage(),
+        '/home': (context) => MainPage(),
       },
     );
   }

@@ -14,6 +14,10 @@ TextStyle blackTextStyle = GoogleFonts.rubik(
   color: blackColor,
 );
 
+TextStyle whiteTextStyle = GoogleFonts.rubik(
+  color: whiteColor,
+);
+
 TextStyle blueTextStyle = GoogleFonts.rubik(
   color: blueColor,
 );
