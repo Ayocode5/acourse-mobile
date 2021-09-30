@@ -199,7 +199,7 @@ class HomePage extends StatelessWidget {
                   ),
                   ProgressTile(),
                   SizedBox(
-                    height: 30,
+                    height: 20,
                   ),
                   PopularTitle(),
                   SizedBox(
@@ -207,7 +207,7 @@ class HomePage extends StatelessWidget {
                   ),
                   PopularTile(),
                   SizedBox(
-                    height: 120,
+                    height: 20,
                   ),
                 ],
               ),
