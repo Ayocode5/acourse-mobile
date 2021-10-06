@@ -85,7 +85,6 @@ class _MainPageState extends State<MainPage> {
                   top: 10,
                   bottom: 5,
                   right: 13,
-                  // right: defaultMargin,
                 ),
                 child: Image.asset(
                   'assets/icons/notif_icon.png',
@@ -101,7 +100,6 @@ class _MainPageState extends State<MainPage> {
                 margin: EdgeInsets.only(
                   top: 10,
                   bottom: 5,
-                  // left: defaultMargin,
                   right: defaultMargin,
                 ),
                 child: Image.asset(
